@@ -1,0 +1,190 @@
+﻿﻿<resources>
+    <string name="app_name">Informe de Servicio de Campo</string>
+    <string name="splash_ico_desc">This is the icon for spash screen</string>
+    <string name="splash_app_desc">Aplicación número 1 para administrar su informe</string>
+    <string name="n">N</string>
+    <string name="close">Cerca</string>
+    <string name="today">Hoy</string>
+    <string name="yesterday">Ayer</string>
+    <string name="home_label">Comienzo</string>
+    <string name="rv_label">Visitas de Regreso</string>
+    <string name="add_rv_label">Añadir nueva Visita de Regreso</string>
+    <string name="edit_rv_label">Editar Visita de Retorno</string>
+    <string name="edit_bs_label">Editar Estudio de la Biblia</string>
+    <string name="view_rv_label">Ver Visita de Regreso</string>
+    <string name="view_bs_label">Ver Estudio de la Biblia</string>
+    <string name="select_bs_from_rv">Agregar Nuevo Estudio de la Biblia</string>
+    <string name="select_rv">Seleccionar Visita de Regreso</string>
+    <string name="select_bs">Seleccione Estudio de la Biblia</string>
+    <string name="bs_label">Estudios Bíblicos</string>
+    <string name="my_report_label">Mi Reporte</string>
+    <string name="settings_label">Configuraciones</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="search_rv">Buscar Visita de Regreso</string>
+    <string name="search_bs">Buscar Estudios Bíblicos</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="edit_details_below">Por favor edite los detalles a continuación</string>
+    <string name="ent_l_disc">Ingrese los detalles de la discusión aquí</string>
+    <string name="ent_n_disc">Ingrese la siguiente discusión propuesta aquí</string>
+    <string name="visit_detail_header">Visita los detalles para </string>
+    <string name="overview_label_this_month">Resumen de este mes</string>
+    <string name="overview_label">Descripción para </string>
+    <string name="updated">Actualizado</string>
+    <string name="saved">Salvado</string>
+    <string name="name">Nombre</string>
+    <string name="address">Dirección</string>
+    <string name="h_l">Horas</string>
+    <string name="vs_l">Video que muestra</string>
+    <string name="plc_l">Ubicaciones</string>
+    <string name="rv_l">Visitas de Regreso</string>
+    <string name="bs_l">Estudios Bíblicos</string>
+    <string name="save_l">Salvar</string>
+    <string name="zero">0</string>
+    <string name="add_btn_desc">Click to add</string>
+    <string name="home_info_label">Por favor ingrese los detalles de su informe para</string>
+    <string name="empty_rv_list">No hay visita de regreso encontrada</string>
+    <string name="empty_bs_list">No se encontró estudio de la Biblia</string>
+    <string name="ent_h_hint">Horas gastadas</string>
+    <string name="ent_vs_hint">Cantidad de videos</string>
+    <string name="ent_plc_hint">Número de publicaciones</string>
+    <string name="ent_rv_hint">Ingrese sus horas</string>
+    <string name="ent_bs_hint">Enter your hours</string>
+    <string name="ent_rv_name">Ingrese su Nombre</string>
+    <string name="ent_rv_address">Ingresa la Direccion</string>
+    <string name="ent_rv_phone">Ingresa Número Telefónico</string>
+    <string name="ent_rv_l_disc">Ingrese la última discusión </string>
+    <string name="ent_rv_n_disc">Ingrese siguiente discusión</string>
+    <string name="add_rv_header">Por favor ingrese los detalles de la visita de regreso</string>
+    <string name="dow_hint">SER VISITADO CADA</string>
+    <string name="time_for_visit">SELECCIONAR HORA PARA VISITAR</string>
+    <string name="time_label">09:00 AM</string>
+    <string name="time_label_hint">Para ser visitado cada</string>
+    <string-array name="days_of_week">
+        <item>Domingo</item>
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miércoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sábado</item>
+    </string-array>
+    <string name="label_name">Nombre:</string>
+    <string name="label_address">Dirección:</string>
+    <string name="label_phone">Número de Teléfono:</string>
+    <string name="label_v_days">Cada:</string>
+    <string name="label_v_time">Hora :</string>
+    <string name="label_l_disc">Última Discusión:</string>
+    <string name="label_next_disc">Próxima Discusión:</string>
+    <string name="label_d_last_v">Última Visita:</string>
+    <string name="delete_rv_desc">Eliminar Visita de Regreso</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Borrar</string>
+    <string name="call">Llamada</string>
+    <string name="message">Mensaje</string>
+    <string name="add_rv_before_bs">Por favor agregue la Visita de Regreso primero para poder agregarla como Estudio de la Biblia</string>
+    <string name="vr_bs_header">Estudios Bíblicos conducidos - </string>
+    <string name="vr_rv_header">Visita de vuelta revisada - </string>
+    <string name="not_specified">No especificado</string>
+    <string name="yearly_r_header">Por favor seleccione año</string>
+    <string name="empty_report">No se encontró registro de informe</string>
+    <string name="monthly_r_header">Seleccione el mes</string>
+    <string name="monthly_r_title">Informe de registro para el año</string>
+    <string name="yearly_item_header">Informe Mensual Promedio</string>
+    <string name="monthly_details_r_header">Seleccione el día para editar el informe</string>
+    <string name="monthly_details_r_title">Informe de registro para - </string>
+    <string name="monthly_item_header">Informe acumulativo para -</string>
+    <string name="edit_report">Editar Informe -</string>
+    <string name="send">Enviar</string>
+    <string name="share">Compartir</string>
+    <string name="share_using">Compartir usando</string>
+    <string name="general_settings">Configuración General</string>
+    <string name="user_name_label">Nombre de Usuario:</string>
+    <string name="user_name_hint">Enter your name</string>
+    <string name="allow_auto_phone_call">Permitir llamadas telefónicas con un solo clic</string>
+    <string name="allow_auto_message">Permitir mensajes con un solo clic</string>
+    <string name="sec_info_header">Información del Secretario</string>
+    <string name="send_r_to_sec_label">Siempre envíe un informe a la secretaria</string>
+    <string name="sec_name_label">Nombre:</string>
+    <string name="sec_name_hint">Ingrese el nombre de la secretaria</string>
+    <string name="sec_phone_label">Número de Teléfono:</string>
+    <string name="sec_phone_hint">Ingrese el número de teléfono de la secretaria</string>
+    <string name="sec_email_label">Dirección de correo electrónico:</string>
+    <string name="sec_email_hint">Ingrese la dirección de correo electrónico del secretario</string>
+    <string name="g_o_info_header">Información del Supervisor del Grupo</string>
+    <string name="send_r_to_g_o_label">Siempre envíe el informe al supervisor del grupo</string>
+    <string name="g_o_name_label">Nombre:</string>
+    <string name="g_o_name_hint">Ingrese el nombre de los supervisores del grupo</string>
+    <string name="g_o_phone_label">Número de Teléfono:</string>
+    <string name="g_o_phone_hint">Ingrese el número de teléfono de los supervisores del grupo</string>
+    <string name="g_o_email_label">Dirección de correo electrónico:</string>
+    <string name="g_o_email_hint">Ingrese la dirección de correo electrónico de los supervisores del grupo</string>
+    <string name="other_setting_header">Otros Ajustes</string>
+    <string name="lang_label">Seleccione el idioma</string>
+    <string name="backup_restore_label">Copia de seguridad y restaurar</string>
+    <string name="about_label">Acerca de la Aplicación</string>
+    <string name="sel_lang_label">Seleccione su idioma preferido</string>
+    <string name="include_salutation">Incluye Saludo a Informar</string>
+    <string name="e_mail">E-mail</string>
+    <string name="send_using">Enviar correo usando </string>
+
+    <string-array name="available_languages_text">
+        <item>Inglés</item>
+        <item>Francés</item>
+	<item>Español</item>
+        <item>Yoruba</item>
+    </string-array>
+
+    <string-array name="available_languages_value">
+        <item>en</item>
+        <item>fr</item>
+	<item>es</item>
+        <item>yo</item>
+    </string-array>
+    <string name="backup">Apoyo</string>
+    <string name="restore">Restaurar</string>
+    <string name="last_backup">Última copia de seguridad</string>
+    <string name="backup_now">Copia ahora</string>
+    <string name="restore_label">Restaurar copia de seguridad</string>
+    <string name="backup_to_online">Guarde siempre la copia de seguridad en la unidad de Google</string>
+    <string name="backup_to_local">Guarde siempre la copia de seguridad en la unidad local</string>
+    <string name="backup_settings_too">Siempre haga una copia de seguridad de mis configuraciones y preferencias</string>
+    <string name="backup_account_label">Cuenta de unidad de Google </string>
+    <string name="backup_account_info">Sin cuenta seleccionada </string>
+    <string name="local_drive">Unidad local :</string>
+    <string name="google_drive">Google Drive :</string>
+    <string name="restore_details">Restaure una copia de seguridad de sus informes, visitas de devolución y Estudios Bíblicos que haya creado anteriormente.
+        Asegúrese de tener una conexión de red activa y de haber seleccionado una cuenta del
+        Cuentas de Google Drive arriba para verificar las copias de seguridad disponibles desde la unidad de Google.</string>
+    <string name="no_backup">No se encontraron copias de seguridad</string>
+    <string name="restore_now">Restaurar ahora</string>
+    <string name="empty_report_text">Report not sent please add at least \nan hour to report before sending</string>
+
+    <string name="starting_l_backup">Starting Local Backup…</string>
+    <string name="l_backup_successful">Local Backup Successful!</string>
+    <string name="l_backup_failed">Local Backup failed!</string>
+    <string name="starting_g_backup">Starting Google Drive Backup…</string>
+    <string name="g_backup_successful">Google Drive Backup Successful!</string>
+    <string name="g_backup_failed">Google Drive Backup failed!</string>
+    <string name="no_backup_method_found">No backup method found, please select a backup method and try again</string>
+
+    <string name="starting_restore">Starting Restore…</string>
+    <string name="restore_successful">Restore Successful!</string>
+    <string name="restore_failed">Restore failed!, could not find backup</string>
+
+    <string name="application_info">
+        <![CDATA[
+        <!DOCTYPE HTML>
+        <html>
+            <head>
+
+            </head>
+            <body style="text-align:justify; line-height:1.5">
+                <p>Informe de Servicio de Campo es una aplicación diseñada y desarrollada por Florom Solutions Inc. Su propósito es ayudar a los testigos de Jehová a administrar su informe de servicio de campo. Esto incluye el número de horas que el editor utilizó en el ministerio de campo, el número de videos que se muestran, el número de ubicaciones, el número de visitas repetidas y el número de diferentes estudios bíblicos realizados.</p> <p>
+	Esta aplicación también ayuda a administrar el completo lista de visitas de retorno y estudios bíblicos, puede realizar una llamada o enviar un mensaje a una visita de devolución, siempre que tenga su número de teléfono donde esté disponible. Tiene un módulo de resumen mensual desde el cual se puede enviar el informe mensual al supervisor del grupo o al secretario de la congregación según la configuración de la aplicación.</p> <p>Esta aplicación también tiene un módulo de copia de seguridad y restauración para garantizar la seguridad de los datos del usuario. Se ha traducido completamente a tres idiomas, incluyendo Francés, Español, y Yoruba, y sigue esperando un mayor soporte de idiomas.       
+	</p> <p>Todo esto y mucho más están disponibles con la aplicación de informe de servicio de campo. Esperamos que tenga una experiencia maravillosa al utilizar la aplicación de informes de servicio de campo de Florom Solutions. Para promociones, soporte de traducción, consultas y sugerencias, no dude en ponerse en contacto con el desarrollador en <a href="mailto:floromsolutions@gmail.com">floromsolutions@gmail.com</a> o en <a href="mailto:samueloyegbemi@gmail.com">samueloyegbemi@gmail.com</a>. Esperamos más funcionalidades.</p>
+            </body>
+        </html>
+        ]]>
+ </string>
+</resources>

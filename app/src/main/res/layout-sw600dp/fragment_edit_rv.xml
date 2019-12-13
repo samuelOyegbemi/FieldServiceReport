@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="@dimen/m_padding"
+    android:descendantFocusability="beforeDescendants"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@color/white">
+    <TextView
+        android:id="@+id/add_rv_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_details_below"
+        android:layout_margin="@dimen/m_padding"
+        android:textSize="@dimen/nav_header_text_size"/>
+    <EditText
+        android:id="@+id/edit_rv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_rv_header"
+        android:hint="@string/ent_rv_name"
+        android:layout_margin="@dimen/content_padding"
+        android:padding="@dimen/content_padding"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/edit_rv_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_rv_name"
+        android:hint="@string/ent_rv_address"
+        android:layout_margin="@dimen/content_padding"
+        android:padding="@dimen/content_padding"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/edit_rv_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_rv_address"
+        android:hint="@string/ent_rv_phone"
+        android:layout_margin="@dimen/content_padding"
+        android:padding="@dimen/content_padding"
+        android:inputType="phone"/>
+    <Spinner
+        android:id="@+id/visit_days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_rv_phone"
+        android:layout_margin="@dimen/content_padding"
+        android:padding="@dimen/content_padding"
+        android:entries="@array/days_of_week"
+        android:spinnerMode="dialog"
+        android:prompt="@string/dow_hint">
+
+    </Spinner>
+
+    <TextView
+        android:id="@+id/visit_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time_label"
+        android:layout_below="@+id/edit_rv_phone"
+        android:layout_margin="@dimen/content_padding"
+        android:padding="@dimen/content_padding"
+        android:hint="@string/time_label_hint"
+        android:gravity="end"
+        style="@style/Widget.AppCompat.Spinner"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/arrow_left"
+        android:textAlignment="textEnd"
+        android:onClick="setTimeForRV"/>
+
+    <Button
+        android:id="@+id/save_rv_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/m_padding"
+        android:text="@string/save_l"
+        android:background="@color/florom_colorDark"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/visit_time"
+        android:layout_margin="@dimen/m_padding"
+        android:onClick="saveRVEditBtn"/>
+</RelativeLayout>

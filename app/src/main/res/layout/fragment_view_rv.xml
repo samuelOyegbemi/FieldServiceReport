@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/m_padding"
+    android:background="@color/white">
+    <android.support.v7.widget.SearchView
+        android:id="@+id/search_my_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/gray"
+        app:queryHint="@string/search_rv"
+        app:defaultQueryHint="@string/search_rv"
+        android:background="@color/white_smoke">
+
+    </android.support.v7.widget.SearchView>
+
+    <ListView
+        android:id="@+id/rv_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_my_rv"
+        android:divider="@color/light_gray"
+        android:dividerHeight="@dimen/list_view_divider_height">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/empty_rv_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/empty_rv_list"
+        android:layout_below="@id/search_my_rv"
+        android:padding="@dimen/content_padding"
+        android:textSize="@dimen/app_text_size"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/add_rv_fab_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/floating_button_padding_s"
+        android:onClick="showNewRVBtn"
+        app:backgroundTint="@color/florom_color"
+        android:src="@drawable/ic_new_rv_white"/>
+
+</RelativeLayout>

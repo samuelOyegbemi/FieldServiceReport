@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/nav_header_text_size"
+        android:background="@color/florom_color"
+        android:text="@string/select_rv"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:padding="@dimen/m_padding"/>
+
+    <RelativeLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_title"
+        android:layout_above="@+id/close_btn"
+        android:padding="@dimen/m_padding">
+
+        <android.support.v7.widget.SearchView
+            android:id="@+id/search_my_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/gray"
+            app:queryHint="@string/search_rv"
+            app:defaultQueryHint="@string/search_rv"
+            android:background="@color/white_smoke">
+
+        </android.support.v7.widget.SearchView>
+
+        <ListView
+            android:id="@+id/rv_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/search_my_rv"
+            android:background="@color/white"
+            android:divider="@color/light_gray"
+            android:dividerHeight="@dimen/list_view_divider_height">
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/empty_rv_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/empty_rv_list"
+            android:layout_below="@id/search_my_rv"
+            android:padding="@dimen/content_padding"
+            android:textSize="@dimen/app_text_size"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        android:layout_above="@id/close_btn"
+        android:layout_marginTop="@dimen/content_padding"/>
+    <Button
+        android:id="@+id/close_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_smoke"
+        android:layout_alignParentBottom="true"
+        android:text="@string/close"
+        android:textColor="@color/blackish_grey"
+        android:textAllCaps="false"
+        android:textSize="@dimen/menu_text_size"/>
+</RelativeLayout>

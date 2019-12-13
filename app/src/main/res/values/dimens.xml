@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splash_app_name">30sp</dimen>
+    <dimen name="splash_app_desc">12sp</dimen>
+    <dimen name="m_padding">15dp</dimen>
+    <dimen name="floating_button_padding_s">12dp</dimen>
+    <dimen name="floating_button_padding">25dp</dimen>
+    <dimen name="content_padding">10dp</dimen>
+    <dimen name="small_padd">6dp</dimen>
+    <dimen name="t_item_padding">15dp</dimen>
+    <dimen name="zero_width">0dp</dimen>
+    <dimen name="list_view_divider_height">2dp</dimen>
+    <dimen name="menu_text_size">16sp</dimen>
+    <dimen name="app_text_size">18sp</dimen>
+    <dimen name="label_text_size">25sp</dimen>
+    <dimen name="nav_header_text_size">20sp</dimen>
+    <dimen name="drawer_width">200dp</dimen>
+    <dimen name="nav_header_height">100dp</dimen>
+    <dimen name="nav_drawer_item_height">70dp</dimen>
+</resources>

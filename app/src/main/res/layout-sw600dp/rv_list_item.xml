@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:padding="@dimen/m_padding"
+    android:background="@color/white"
+    android:gravity="center_vertical">
+
+    <RelativeLayout
+        android:id="@+id/rv_label_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/m_padding"
+        android:background="@android:color/transparent">
+
+        <com.floromsolutions.fieldservicereport.CircularTextView
+            android:id="@+id/item_rv_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/label_text_size"
+            android:gravity="center"
+            android:padding="@dimen/content_padding"
+            android:text="@string/n"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/item_rv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/nav_header_text_size"
+        android:text="@string/name"
+        android:layout_toRightOf="@+id/rv_label_container"/>
+
+    <TextView
+        android:id="@+id/item_rv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_rv_name"
+        android:layout_toRightOf="@+id/rv_label_container"
+        android:textSize="@dimen/menu_text_size"
+        android:text="@string/address"/>
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="MyAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/florom_color</item>
+        <item name="colorPrimaryDark">@color/florom_colorDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:itemTextAppearance">@style/myMenuTextAppearance</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textColorPrimary">@color/text_color</item>
+        <item name="android:textColorSecondary">@color/text_color</item>
+        <item name="android:textColorTertiary">@color/text_color</item>
+    </style>
+    <style name="AppTheme" parent="@style/MyAppTheme"/>
+
+    <style name="myMenuTextAppearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/app_text_size</item>
+    </style>
+
+    <style name="MyDatePickerDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/florom_color</item>
+        <item name="colorControlActivated">@color/florom_color</item>
+        <item name="colorControlHighlight">@color/florom_color_alpha_50</item>
+        <item name="android:datePickerStyle">@style/MyDatePickerStyle</item>
+    </style>
+
+    <style name="MyDatePickerStyle" parent="@android:style/Widget.DatePicker">
+        <item name="android:headerBackground">@color/florom_color</item>
+    </style>
+    
+    <style name="CustomToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="android:textSize">@dimen/nav_header_text_size</item>
+    </style>
+
+    <style name="NavigationDrawerStyle">
+        <item name="android:textSize">@dimen/menu_text_size</item>
+        <item name="android:listPreferredItemHeightSmall">@dimen/nav_drawer_item_height</item>
+        <item name="listPreferredItemHeightSmall">@dimen/nav_drawer_item_height</item>
+    </style>
+</resources>

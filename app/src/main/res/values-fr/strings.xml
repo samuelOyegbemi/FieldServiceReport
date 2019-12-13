@@ -1,0 +1,191 @@
+﻿﻿<resources>
+    <string name="app_name">Rapport de Service sur le Terrain</string>
+    <string name="splash_ico_desc">This is the icon for spash screen</string>
+    <string name="splash_app_desc">Application numéro 1 pour gérer votre rapport</string>
+    <string name="n">N</string>
+    <string name="close">Fermer</string>
+    <string name="today">Aujourd\'hui</string>
+    <string name="yesterday">Hier</string>
+    <string name="home_label">Accueil</string>
+    <string name="rv_label">Visites de Retour</string>
+    <string name="add_rv_label">Ajouter une nouvelle visite</string>
+    <string name="edit_rv_label">Modifier la visite de retour</string>
+    <string name="edit_bs_label">Modifier l\'étude de la Bible</string>
+    <string name="view_rv_label">Voir la visite de retour</string>
+    <string name="view_bs_label">Voir l\'étude de la Bible</string>
+    <string name="select_bs_from_rv">Ajouter une nouvelle étude biblique</string>
+    <string name="select_rv">Sélectionnez Retour</string>
+    <string name="select_bs">Choisir une étude biblique</string>
+    <string name="bs_label">Etudes Bibliques</string>
+    <string name="my_report_label">Mon Rapport</string>
+    <string name="settings_label">Paramètres</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="search_rv">Rechercher Retour</string>
+    <string name="search_bs">Rechercher des études bibliques</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="edit_details_below">Veuillez modifier les détails ci-dessous</string>
+    <string name="ent_l_disc">Entrez les détails de la discussion ici</string>
+    <string name="ent_n_disc">Entrez la discussion suivante proposée ici</string>
+    <string name="visit_detail_header">Détails de la visite pour</string>
+    <string name="overview_label_this_month">Vue d\'ensemble pour ce mois</string>
+    <string name="overview_label">Vue d\'ensemble pour </string>
+    <string name="updated">Actualisé</string>
+    <string name="saved">Enregistré</string>
+    <string name="name">Prénom</string>
+    <string name="address">Adresse</string>
+    <string name="h_l">Heures</string>
+    <string name="vs_l">Affichage Vidéo</string>
+    <string name="plc_l">Emplacements</string>
+    <string name="rv_l">Visites de Retour</string>
+    <string name="bs_l">Etudes Bibliques</string>
+    <string name="save_l">Sauvegarder</string>
+    <string name="zero">0</string>
+    <string name="add_btn_desc">Click to add</string>
+    <string name="home_info_label">Veuillez entrer les détails de votre rapport pour</string>
+    <string name="empty_rv_list">Aucune visite de retour trouvée</string>
+    <string name="empty_bs_list">Aucune étude biblique trouvée</string>
+    <string name="ent_h_hint">Heures passées</string>
+    <string name="ent_vs_hint">Nombre de vidéos</string>
+    <string name="ent_plc_hint">Nombre de publications</string>
+    <string name="ent_rv_hint">Entrez vos heures</string>
+    <string name="ent_bs_hint">Entrez vos heures</string>
+    <string name="ent_rv_name">Entrez le Nom</string>
+    <string name="ent_rv_address">Entrer l\'adresse</string>
+    <string name="ent_rv_phone">Entrez le numéro de téléphone</string>
+    <string name="ent_rv_l_disc">Entrez la dernière discussion </string>
+    <string name="ent_rv_n_disc">Entrer dans la discussion suivante</string>
+    <string name="add_rv_header">S\'il vous plaît entrer les détails de la visite de retour</string>
+    <string name="dow_hint">A VISITER CHAQUE</string>
+    <string name="time_for_visit">CHOISISSEZ LE TEMPS</string>
+    <string name="time_label">09:00 AM</string>
+    <string name="time_label_hint">A visiter tous les</string>
+    <string-array name="days_of_week">
+        <item>Dimanche</item>
+        <item>Lundi</item>
+        <item>Mardi</item>
+        <item>Mercredi</item>
+        <item>Jeudi</item>
+        <item>Vendredi</item>
+        <item>Samedi</item>
+    </string-array>
+    <string name="label_name">Prénom:</string>
+    <string name="label_address">Adresse:</string>
+    <string name="label_phone">Numéro de téléphone:</string>
+    <string name="label_v_days">Chaque:</string>
+    <string name="label_v_time">Temps :</string>
+    <string name="label_l_disc">Dernière discussion:</string>
+    <string name="label_next_disc">Discussion suivante:</string>
+    <string name="label_d_last_v">Derniere visite:</string>
+    <string name="delete_rv_desc">Delete Return Visit</string>
+    <string name="edit">Modifier</string>
+    <string name="delete">Effacer</string>
+    <string name="call">Appel</string>
+    <string name="message">Message</string>
+    <string name="add_rv_before_bs">S\'il vous plaît ajouter Retour Visite avant de pouvoir l\'ajouter comme étude biblique</string>
+    <string name="vr_bs_header">Etudes Bibliques Effectuées - </string>
+    <string name="vr_rv_header">Retour Visite Vérifié - </string>
+    <string name="not_specified">Non Précisé</string>
+    <string name="yearly_r_header">Veuillez Sélectionner une Année</string>
+    <string name="empty_report">Aucun enregistrement de rapport trouvé</string>
+    <string name="monthly_r_header">Veuillez sélectionner un mois</string>
+    <string name="monthly_r_title">Rapport record pour l\'année</string>
+    <string name="yearly_item_header">Rapport mensuel moyen</string>
+    <string name="monthly_details_r_header">Veuillez sélectionner le jour pour modifier le rapport</string>
+    <string name="monthly_details_r_title">Rapport d\'enregistrement pour - </string>
+    <string name="monthly_item_header">Rapport cumulatif pour -</string>
+    <string name="edit_report">Modifier le rapport -</string>
+    <string name="send">Envoyer</string>
+    <string name="share">Partager</string>
+    <string name="share_using">Partager en utilisant</string>
+    <string name="general_settings">Paramètres Généraux</string>
+    <string name="user_name_label">Nom d\'utilisateur:</string>
+    <string name="user_name_hint">Entrez votre nom</string>
+    <string name="allow_auto_phone_call">Autoriser un appel téléphonique en un clic</string>
+    <string name="allow_auto_message">Autoriser l\'envoi d\'un rapport en un clic</string>
+    <string name="sec_info_header">Information du secrétaire</string>
+    <string name="send_r_to_sec_label">Toujours envoyer un rapport au secrétaire</string>
+    <string name="sec_name_label">Prénom:</string>
+    <string name="sec_name_hint">Entrez le nom du secrétaire</string>
+    <string name="sec_phone_label">Numéro de téléphone:</string>
+    <string name="sec_phone_hint">Entrez le numéro de téléphone du secrétaire</string>
+    <string name="sec_email_label">Adresse E-mail:</string>
+    <string name="sec_email_hint">Entrez l\'adresse e-mail du secrétaire</string>
+    <string name="g_o_info_header">Informations du superviseur de groupe</string>
+    <string name="send_r_to_g_o_label">Toujours envoyer un rapport au superviseur de groupe</string>
+    <string name="g_o_name_label">Prénom:</string>
+    <string name="g_o_name_hint">Entrez le nom du superviseur de groupe</string>
+    <string name="g_o_phone_label">Numéro de téléphone:</string>
+    <string name="g_o_phone_hint">Entrez le numéro de téléphone du superviseur de groupe</string>
+    <string name="g_o_email_label">Adresse E-mail:</string>
+    <string name="g_o_email_hint">Entrez l\'adresse e-mail du superviseur de groupe</string>
+    <string name="other_setting_header">Autres Paramètres</string>
+    <string name="lang_label">Choisir la Langue</string>
+    <string name="backup_restore_label">Sauvegarde et Restauration</string>
+    <string name="about_label">À propos</string>
+    <string name="sel_lang_label">Veuillez sélectionner votre langue préférée</string>
+    <string name="include_salutation">Inclure la Salutation au Rapport</string>
+    <string name="e_mail">E-mail</string>
+    <string name="send_using">Envoyer un mail en utilisant </string>
+
+    <string-array name="available_languages_text">
+        <item>Anglais</item>
+        <item>Français</item>
+        <item>Espanol</item>
+	<item>Yoruba</item>
+    </string-array>
+
+    <string-array name="available_languages_value">
+        <item>en</item>
+        <item>fr</item>
+       	<item>es</item>
+	<item>yo</item>
+    </string-array>
+    <string name="backup">Sauvegarde</string>
+    <string name="restore">Restaurer</string>
+    <string name="last_backup">Dernière sauvegarde</string>
+    <string name="backup_now">Sauvegarder Maintenant</string>
+    <string name="restore_label">Restaurer la sauvegarde</string>
+    <string name="backup_to_online">Toujours enregistrer la sauvegarde sur Google Drive</string>
+    <string name="backup_to_local">Toujours enregistrer la sauvegarde sur le lecteur local</string>
+    <string name="backup_settings_too">Toujours sauvegarder mes paramètres et préférences</string>
+    <string name="backup_account_label">Google Drive compte </string>
+    <string name="backup_account_info">Aucun compte sélectionné</string>
+    <string name="local_drive">Stockage local :</string>
+    <string name="google_drive">Stockage Google :</string>
+    <string name="restore_details">Restaurez une sauvegarde de vos rapports, des visites de retour et des études bibliques que vous avez créées précédemment.
+        Veuillez vous assurer que vous avez une connexion réseau active et que vous avez sélectionné un compte de la
+        Comptes Google Drive ci-dessus afin de vérifier les sauvegardes disponibles à partir du lecteur Google.
+</string>
+    <string name="no_backup">Aucune sauvegarde trouvée</string>
+    <string name="restore_now">Restaurer Maintenant</string>
+    <string name="empty_report_text">Report not sent please add at least \nan hour to report before sending</string>
+
+    <string name="starting_l_backup">Starting Local Backup…</string>
+    <string name="l_backup_successful">Local Backup Successful!</string>
+    <string name="l_backup_failed">Local Backup failed!</string>
+    <string name="starting_g_backup">Starting Google Drive Backup…</string>
+    <string name="g_backup_successful">Google Drive Backup Successful!</string>
+    <string name="g_backup_failed">Google Drive Backup failed!</string>
+    <string name="no_backup_method_found">No backup method found, please select a backup method and try again</string>
+
+    <string name="starting_restore">Starting Restore…</string>
+    <string name="restore_successful">Restore Successful!</string>
+    <string name="restore_failed">Restore failed!, could not find backup</string>
+
+    <string name="application_info">
+        <![CDATA[
+        <!DOCTYPE HTML>
+        <html>
+            <head>
+
+            </head>
+            <body style="text-align:justify; line-height:1.5">
+                <p>Rapport de service sur le terrain est une application conçue et développée par Florom Solutions Inc. Son but est d\'aider les témoins de Jéhovah à gérer leur rapport de service sur le terrain. Cela inclut le nombre d\'heures que l\'éditeur a utilisé dans le ministère de terrain, le nombre de vidéos affichées, le nombre de stages, le nombre de visites de retour et le nombre d\'études bibliques réalisées. </p> <p> Cette application permet également de gérer la complète
+                liste des visites de retour et des études bibliques, il peut placer un appel ou envoyer un message à une visite de retour fourni leur numéro de téléphone si disponible. Il dispose d\'un module de vue d\'ensemble mensuel à partir duquel un rapport mensuel peut être envoyé au superviseur du groupe ou à la secrétaire de la congrégation en fonction des paramètres de l\'application. </p> <p>Cette application dispose également d\'un module de sauvegarde et de restauration afin d\'assurer la sécurité des données de l\'utilisateur. Il a été entièrement traduit en trois langues, y compris le Français, Espanol et le Yoruba, et attend toujours avec impatience d\'avoir plus de soutien linguistique.
+                </p> <p>Tout cela et beaucoup plus sont disponibles avec Application de rapport de service sur le terrain. Nous espérons que vous aurez une expérience merveilleuse en utilisant Application de rapport de service sur le terrain de Florom Solutions. Pour la promotion, le support de traduction, l\'enquête et la suggestion, n\'hésitez pas à contacter le développeur sur <a href="mailto:floromsolutions@gmail.com">floromsolutions@gmail.com</a> ou sur <a href="mailto:samueloyegbemi@gmail.com">samueloyegbemi@gmail.com</a>. Nous attendons avec impatience plus de fonctionnalités.</p>
+            </body>
+        </html>
+        ]]>
+   </string>
+</resources>

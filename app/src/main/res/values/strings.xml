@@ -1,0 +1,191 @@
+<resources>
+    <string name="app_name">Field Service Report</string>
+    <string name="splash_ico_desc">This is the icon for spash screen</string>
+    <string name="splash_app_desc">No. 1 application to manage your report</string>
+    <string name="splash_app_version">Version: 1.2.0</string>
+    <string name="n">N</string>
+    <string name="close">Close</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="home_label">Home</string>
+    <string name="rv_label">Return Visits</string>
+    <string name="add_rv_label">Add New Return Visit</string>
+    <string name="edit_rv_label">Edit Return Visit</string>
+    <string name="edit_bs_label">Edit Bible Study</string>
+    <string name="view_rv_label">View Return Visit</string>
+    <string name="view_bs_label">View Bible Study</string>
+    <string name="select_bs_from_rv">Add New Bible Study</string>
+    <string name="select_rv">Select Return Visit</string>
+    <string name="select_bs">Select Bible Study</string>
+    <string name="bs_label">Bible Studies</string>
+    <string name="my_report_label">My Report</string>
+    <string name="settings_label">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="search_rv">Search Return Visit</string>
+    <string name="search_bs">Search Bible Studies</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="edit_details_below">Please edit details below</string>
+    <string name="ent_l_disc">Enter the discussion details here</string>
+    <string name="ent_n_disc">Enter proposed next discussion here</string>
+    <string name="visit_detail_header">Visit Details for </string>
+    <string name="overview_label_this_month">Overview for this Month</string>
+    <string name="overview_label">Overview for </string>
+    <string name="updated">Updated</string>
+    <string name="saved">Saved</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="h_l">Hours</string>
+    <string name="vs_l">Video Showing</string>
+    <string name="plc_l">Placements</string>
+    <string name="rv_l">Return Visits</string>
+    <string name="bs_l">Bible Studies</string>
+    <string name="save_l">Save</string>
+    <string name="zero">0</string>
+    <string name="add_btn_desc">Click to add</string>
+    <string name="home_info_label">Please enter your report details for</string>
+    <string name="empty_rv_list">No Return Visit found</string>
+    <string name="empty_bs_list">No Bible Study found</string>
+    <string name="ent_h_hint">Hours spent</string>
+    <string name="ent_vs_hint">Number of videos</string>
+    <string name="ent_plc_hint">Number of publications</string>
+    <string name="ent_rv_hint">Enter your hours</string>
+    <string name="ent_bs_hint">Enter your hours</string>
+    <string name="ent_rv_name">Enter Name</string>
+    <string name="ent_rv_address">Enter Address</string>
+    <string name="ent_rv_phone">Enter Phone Number</string>
+    <string name="ent_rv_l_disc">Enter Last Discussion </string>
+    <string name="ent_rv_n_disc">Enter Next Discussion</string>
+    <string name="add_rv_header">Please enter the return visit details</string>
+    <string name="dow_hint">TO BE VISITED EVERY</string>
+    <string name="time_for_visit">SELECT TIME FOR VISIT</string>
+    <string name="time_label">09:00 AM</string>
+    <string name="time_label_hint">To be visited every</string>
+    <string-array name="days_of_week">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+    <string name="label_name">Name:</string>
+    <string name="label_address">Address:</string>
+    <string name="label_phone">Phone Number:</string>
+    <string name="label_v_days">Every:</string>
+    <string name="label_v_time">Time :</string>
+    <string name="label_l_disc">Last Discussion:</string>
+    <string name="label_next_disc">Next Discussion:</string>
+    <string name="label_d_last_v">Last Visit:</string>
+    <string name="delete_rv_desc">Delete Return Visit</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="call">Call</string>
+    <string name="message">Message</string>
+    <string name="add_rv_before_bs">please add Return Visit first before you can add it as Bible Study</string>
+    <string name="vr_bs_header">Bible Studies Conducted - </string>
+    <string name="vr_rv_header">Return Visit Checked - </string>
+    <string name="not_specified">Not Specified</string>
+    <string name="yearly_r_header">Please Select Year</string>
+    <string name="empty_report">No report record found</string>
+    <string name="monthly_r_header">Please Select Month</string>
+    <string name="monthly_r_title">Report record for the year</string>
+    <string name="yearly_item_header">Average Monthly Report</string>
+    <string name="monthly_details_r_header">Please Select Day to Edit Report </string>
+    <string name="monthly_details_r_title">Report record for - </string>
+    <string name="monthly_item_header">Cumulative Report for -</string>
+    <string name="edit_report">Edit Report -</string>
+    <string name="send">Send</string>
+    <string name="share">Share</string>
+    <string name="share_using">Share Using</string>
+    <string name="general_settings">General Settings</string>
+    <string name="user_name_label">User Name:</string>
+    <string name="user_name_hint">Enter your name</string>
+    <string name="allow_auto_phone_call">Allow one-click phone call</string>
+    <string name="allow_auto_message">Allow one-click messaging</string>
+    <string name="sec_info_header">Secretary\'s Information</string>
+    <string name="send_r_to_sec_label">Always send report to secretary</string>
+    <string name="sec_name_label">Name:</string>
+    <string name="sec_name_hint">Enter secretary\'s name</string>
+    <string name="sec_phone_label">Phone Number:</string>
+    <string name="sec_phone_hint">Enter secretary\'s phone number</string>
+    <string name="sec_email_label">E-mail Address:</string>
+    <string name="sec_email_hint">Enter secretary\'s e-mail address</string>
+    <string name="g_o_info_header">Group Overseer\'s Information</string>
+    <string name="send_r_to_g_o_label">Always send report to group overseer</string>
+    <string name="g_o_name_label">Name:</string>
+    <string name="g_o_name_hint">Enter group overseers\'s name</string>
+    <string name="g_o_phone_label">Phone Number:</string>
+    <string name="g_o_phone_hint">Enter group overseers\'s phone number</string>
+    <string name="g_o_email_label">E-mail Address:</string>
+    <string name="g_o_email_hint">Enter group overseers\'s e-mail address</string>
+    <string name="other_setting_header">Other Settings</string>
+    <string name="lang_label">Select Language</string>
+    <string name="backup_restore_label">Backup and Restore</string>
+    <string name="about_label">About Application</string>
+    <string name="sel_lang_label">Please select your preferred language</string>
+    <string name="include_salutation">Include Salutation to Report</string>
+    <string name="e_mail">E-mail</string>
+    <string name="send_using">Send Mail Using </string>
+
+    <string-array name="available_languages_text">
+        <item>English</item>
+        <item>French</item>
+        <item>Spanish</item>
+        <item>Yoruba</item>
+    </string-array>
+
+    <string-array name="available_languages_value">
+        <item>en</item>
+        <item>fr</item>
+        <item>es</item>
+        <item>yo</item>
+    </string-array>
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
+    <string name="last_backup">Last Backup</string>
+    <string name="backup_now">Backup Now</string>
+    <string name="restore_label">Restore Backup</string>
+    <string name="backup_to_online">Always save backup to Google drive</string>
+    <string name="backup_to_local">Always save backup to local drive</string>
+    <string name="backup_settings_too">Always backup my settings and preferences</string>
+    <string name="backup_account_label">Google drive account </string>
+    <string name="backup_account_info">No Account Selected </string>
+    <string name="local_drive">Local Drive :</string>
+    <string name="google_drive">Google Drive :</string>
+    <string name="restore_details">Restore a backup of your reports, return visits and bible studies that you have earlier created.
+        Please ensure you have an active network connection and that you have selected an account from the
+        Google Drive Accounts above in order to check for available backups from Google drive.</string>
+    <string name="no_backup">No backup found</string>
+    <string name="restore_now">Restore Now</string>
+    <string name="empty_report_text">Report not sent please add at least \nan hour to report before sending</string>
+
+    <string name="starting_l_backup">Starting Local Backup…</string>
+    <string name="l_backup_successful">Local Backup Successful!</string>
+    <string name="l_backup_failed">Local Backup failed!</string>
+    <string name="starting_g_backup">Starting Google Drive Backup…</string>
+    <string name="g_backup_successful">Google Drive Backup Successful!</string>
+    <string name="g_backup_failed">Google Drive Backup failed!</string>
+    <string name="no_backup_method_found">No backup method found, please select a backup method and try again</string>
+
+    <string name="starting_restore">Starting Restore…</string>
+    <string name="restore_successful">Restore Successful!</string>
+    <string name="restore_failed">Restore failed!, could not find backup</string>
+
+    <string name="application_info">
+        <![CDATA[
+        <!DOCTYPE HTML>
+        <html>
+            <head>
+
+            </head>
+            <body style="text-align:justify; line-height:1.5">
+                <p>Field Service Report is an application designed and developed by Florom Solutions Inc. Its purpose is to help Jehovah\'s witnesses to manage their field service report. This include the number of hours a publisher used in the field ministry, number of video shown, number of placements, number of return visits and number of different bible studies conducted. </p> <p> This application also helps to manage the comprehensive
+                list of return visits and bible studies, it can place call or send message to a return visit provided the phone number is available. It has a monthly overview module from which monthly report could be sent to the group overseer or congregation secretary based on application settings. </p> <p>This application also have a backup and restore module in order to ensure user data safety. It has been fully translated to three languages including French, Spanish and Yoruba, and still looking forward to more language support.
+                </p> <p>All these and lots more are available with Field Service Report Application. We do hope you have a wonderful experience using Field Service Report Application from Florom Solutions. For promotion, translation support, enquiry and suggestion, feel free to contact the developer on <a href="mailto:floromsolutions@gmail.com">floromsolutions@gmail.com</a> or on <a href="mailto:samueloyegbemi@gmail.com">samueloyegbemi@gmail.com</a>. We look forward to more functionality.</p>
+            </body>
+        </html>
+        ]]>
+    </string>
+</resources>

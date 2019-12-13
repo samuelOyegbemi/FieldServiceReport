@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:padding="@dimen/m_padding"
+    android:gravity="center_vertical">
+    <TextView
+        android:id="@+id/item_rv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/remove_cont"
+        android:textSize="@dimen/nav_header_text_size"
+        android:text="@string/name"/>
+
+    <TextView
+        android:id="@+id/item_rv_disc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_rv_name"
+        android:layout_toLeftOf="@id/remove_cont"
+        android:textSize="@dimen/menu_text_size"
+        android:text="@string/label_l_disc"/>
+    <RelativeLayout
+        android:id="@+id/remove_cont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center"
+        android:padding="@dimen/content_padding">
+        <ImageButton
+            android:id="@+id/remove_visit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/close"
+            android:src="@drawable/ic_remove_circle_red_24dp"
+            android:background="@android:color/transparent"/>
+    </RelativeLayout>
+</RelativeLayout>

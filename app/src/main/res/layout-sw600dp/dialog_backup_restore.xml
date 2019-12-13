@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal">
+    <TextView
+        android:id="@+id/br_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/backup"
+        android:textSize="@dimen/nav_header_text_size"
+        android:textColor="?colorPrimary"
+        android:paddingTop="@dimen/m_padding"/>
+    <LinearLayout
+        android:id="@+id/progress_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/br_header"
+        android:padding="@dimen/m_padding"
+        android:layout_margin="@dimen/m_padding"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/small_padd"/>
+        <TextView
+            android:id="@+id/status_monitor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/small_padd"
+            android:textSize="@dimen/app_text_size"
+            android:textColor="@color/black" />
+    </LinearLayout>
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@color/gray"
+    android:layout_above="@id/ok_btn"
+    android:layout_marginTop="@dimen/content_padding"/>
+    <Button
+        android:id="@+id/ok_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progress_container"
+        android:text="@string/close"
+        android:background="@color/white_smoke"/>
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="@dimen/m_padding">
+    <TextView
+        android:id="@+id/lang_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sel_lang_label"
+        android:textSize="@dimen/nav_header_text_size"
+        android:paddingBottom="@dimen/m_padding"/>
+    <View
+        android:id="@+id/top_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        android:layout_below="@id/lang_header"/>
+    <ListView
+        android:id="@+id/language_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top_divider"
+        android:divider="@color/gray"
+        android:dividerHeight="1dp">
+
+    </ListView>
+</RelativeLayout>

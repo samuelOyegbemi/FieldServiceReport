@@ -1,0 +1,190 @@
+﻿<resources>
+    <string name="app_name">Ìròyìn Isẹ́ Ìsìn</string>
+    <string name="splash_ico_desc">Eleyin ni icon fun splash screen</string>
+    <string name="splash_app_desc">Ojúlówó apilikásàn fún mímójútó Ìròyìn Isẹ́ Ìsìn</string>
+    <string name="n">N</string>
+    <string name="close">Paádé</string>
+    <string name="today">Òní</string>
+    <string name="yesterday">Ànán</string>
+    <string name="home_label">Ìbẹ̀rẹ̀</string>
+    <string name="rv_label">Ìpadàbẹ̀wò</string>
+    <string name="add_rv_label"> Ìpadàbẹ̀wò  Tuntun</string>
+    <string name="edit_rv_label">Sàtúnse sí Ìpadàbẹ̀wò </string>
+    <string name="edit_bs_label"> Sàtúnse sí  Ìkẹ́kọ̀ọ́ Bíbélì</string>
+    <string name="view_rv_label">Wo Ìpadàbẹ̀wò </string>
+    <string name="view_bs_label">Wo Ìkẹ́kọ̀ọ́ Bíbélì </string>
+    <string name="select_bs_from_rv"> Ìkẹ́kọ̀ọ́ Bíbélì  Tuntun</string>
+    <string name="select_rv">Yan Ìpadàbẹ̀wò </string>
+    <string name="select_bs">Yan Ìkẹ́kọ̀ọ́ Bíbélì </string>
+    <string name="bs_label">Ìkẹ́kọ̀ọ́ Bíbélì</string>
+    <string name="my_report_label"> Ìròyìn Mi</string>
+    <string name="settings_label">Ìsètò</string>
+    <string name="drawer_open">Sí navigation drawer</string>
+    <string name="drawer_close">Ti navigation drawer</string>
+    <string name="search_rv">Sàwárí Ìpadàbẹ̀wò </string>
+    <string name="search_bs"> Sàwárí Ìkẹ́kọ̀ọ́ Bíbélì </string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="edit_details_below">Jọ̀wọ́ se àyípadà tó yẹ</string>
+    <string name="ent_l_disc">Jọ̀wọ́ kọ ohun tí ẹ jọ sọ sí ibí yìí</string>
+    <string name="ent_n_disc"> Jọ̀wọ́ kọ ohun tí ẹ fẹ́ sọ nígbà míràn sí ibí yìí </string>
+    <string name="visit_detail_header">Kókó Ìbẹ̀wò fún</string>
+    <string name="overview_label_this_month">Àkójọpọ̀ Ìròyìn fún Osù yíí</string>
+    <string name="overview_label"> Àkójọpọ̀ Ìròyìn fún </string>
+    <string name="updated">Updated</string>
+    <string name="saved">Saved</string>
+    <string name="name">Orúkọ</string>
+    <string name="address">Àdírẹ́ẹ̀sì</string>
+    <string name="h_l">Wákàtí</string>
+    <string name="vs_l">Fídíò</string>
+    <string name="plc_l"> Ìtẹ̀jáde</string>
+    <string name="rv_l"> Ìpadàbẹ̀wò </string>
+    <string name="bs_l">Ìkẹ́kọ̀ọ́ Bíbélì </string>
+    <string name="save_l">Save</string>
+    <string name="zero">0</string>
+    <string name="add_btn_desc">kliki lati fi kun</string>
+    <string name="home_info_label">Jọ̀wọ́ kọ ẹ̀kúnrẹ́rẹ́ Ìròyìn rẹ fún</string>
+    <string name="empty_rv_list">Kò sí àkọsílẹ̀ Ìpadàbẹ̀wò </string>
+    <string name="empty_bs_list"> Kò sí àkọsílẹ̀ Ìkẹ́kọ̀ọ́ Bíbélì </string>
+    <string name="ent_h_hint">Iye wákàtí tí ọ lò</string>
+    <string name="ent_vs_hint"> Iye fídíò </string>
+    <string name="ent_plc_hint"> Iye ìtẹ̀jáde </string>
+    <string name="ent_rv_hint">Kọ wákàtíì rẹ</string>
+    <string name="ent_bs_hint"> Kọ wákàtíì rẹ </string>
+    <string name="ent_rv_name">Kọ orúkọ</string>
+    <string name="ent_rv_address">Kọ àdírẹ́ẹ̀sì </string>
+    <string name="ent_rv_phone">Kọ nọ́ḿbà ẹ̀rọ alágbèéká</string>
+    <string name="ent_rv_l_disc">Ohun tí e jo so gbẹ̀yìn </string>
+    <string name="ent_rv_n_disc">Ohun tí e fe so nigba miran</string>
+    <string name="add_rv_header"> Jọ̀wọ́ kọ ẹ̀kúnrẹ́rẹ́ àlàyé nípa Ìpadàbẹ̀wò </string>
+    <string name="dow_hint"> NÍ GBOGBO ỌJỌ́Ọ </string>
+    <string name="time_for_visit">YAN ÀSÌKÒ FÚN ÌBẸ̀WÒ</string>
+    <string name="time_label">09:00 AM</string>
+    <string name="time_label_hint"> NÍ GBOGBO ỌJỌ́Ọ</string>
+    <string-array name="days_of_week">
+        <item>Àìkú</item>
+        <item>Ajé</item>
+        <item>Ìsẹ́gun</item>
+        <item>Ọjọ́rú</item>
+        <item>Ọjọ́bọ̀</item>
+        <item>Ẹtì</item>
+        <item>Àbámẹ́ta</item>
+    </string-array>
+    <string name="label_name"> Orúkọ:</string>
+    <string name="label_address"> Àdírẹ́ẹ̀sì:</string>
+    <string name="label_phone"> Nọ́ḿbà ẹ̀rọ alágbèéká:</string>
+    <string name="label_v_days"> Ní gbogbo Ọjọ́ọ:</string>
+    <string name="label_v_time"> Àsìkò :</string>
+    <string name="label_l_disc"> Ohun tí a jọ sọ </string>
+    <string name="label_next_disc"> Ohun tí a fẹ́ sọ nígbà míràn:</string>
+    <string name="label_d_last_v"> Ìgbà tí a ríra gbẹ̀yìn:</string>
+    <string name="delete_rv_desc"> Yọ Ìpadàbẹ̀wò kúrò</string>
+    <string name="edit"> sàyípadà</string>
+    <string name="delete"> Yọọ́ kúrò </string>
+    <string name="call">Pèé</string>
+    <string name="message">Mẹ́sáàgì</string>
+    <string name="add_rv_before_bs">Jọ̀wọ́ kọ́kọ́ ní Ìpadàbẹ̀wò nán kí o tó sọọ́ di Ìkẹ́kọ̀ọ́ Bíbélì </string>
+    <string name="vr_bs_header">Àwọn Ìkẹ́kọ̀ọ́ Bíbélì tí mo darí fún - </string>
+    <string name="vr_rv_header">Àwọn Ìpadàbẹ̀wò tí mo ní fún - </string>
+    <string name="not_specified">Kò sí ní àkọsílẹ̀</string>
+    <string name="yearly_r_header">Jọ̀wọ́ yan Ọdún</string>
+    <string name="empty_report">Kò sí àkọsílẹ̀ Ìròyìn</string>
+    <string name="monthly_r_header">Jọ̀wọ́ yan Osù</string>
+    <string name="monthly_r_title">Àkọsílẹ̀ Ìròyìn fún ọdún</string>
+    <string name="yearly_item_header">Ìròyìn Ìpíndọ́gba Osoosù</string>
+    <string name="monthly_details_r_header">Jọ̀wọ́ yan Ọjọ́ láti sàyípadà sí Ìròyìn</string>
+    <string name="monthly_details_r_title">Àkọsílẹ̀ ìròyìn fún- </string>
+    <string name="monthly_item_header">Àkójọpọ̀ ìròyìn fún -</string>
+    <string name="edit_report">sàyípadà sí Ìròyìn -</string>
+    <string name="send">Firáńsẹ́</string>
+    <string name="share">sàpínká</string>
+    <string name="share_using">Yan apilikásàn</string>
+    <string name="general_settings">Ìsètò Gbogboogbò</string>
+    <string name="user_name_label">Orúkọ Olùmúlò:</string>
+    <string name="user_name_hint">Kọ orúkọọ̀ rẹ</string>
+    <string name="allow_auto_phone_call">Gba pípèe tẹ̀ lẹ́ǹkan láàyè</string>
+    <string name="allow_auto_message">Gba mẹ́sáàgì tẹ̀ lẹ́ǹkan láàyè</string>
+    <string name="sec_info_header">Àlààyé nípa akọ̀wé ìjọ</string>
+    <string name="send_r_to_sec_label">Akọ̀wé ìjọ ni kí o máa fìròyìn ráńsẹ́ sí</string>
+    <string name="sec_name_label">Orúkọ:</string>
+    <string name="sec_name_hint">Kọ orúkọ akọ̀wé ìjọ</string>
+    <string name="sec_phone_label">Nọ́ḿbà ẹ̀rọ alágbèéká:</string>
+    <string name="sec_phone_hint">Kọ nọ́ḿbà ẹ̀rọ alágbèéká akọ̀wé ìjọ</string>
+    <string name="sec_email_label">Àdírẹ́ẹ̀sì E-mail:</string>
+    <string name="sec_email_hint">Kọ Àdírẹ́ẹ̀sì e-mail akọ̀wé ìjọ</string>
+    <string name="g_o_info_header">Àlààyé nípa alábójútó àwùjọ</string>
+    <string name="send_r_to_g_o_label">Alábójútó àwùjọ ni kí o máa fìròyìn ráńsẹ́ sí</string>
+    <string name="g_o_name_label">Orúkọ:</string>
+    <string name="g_o_name_hint">Kọ orúkọ alábójútó àwùjọ</string>
+    <string name="g_o_phone_label">Nọ́ḿbà ẹ̀rọ alágbèéká:</string>
+    <string name="g_o_phone_hint">Kọ nọ́ḿbà ẹ̀rọ alábójútó àwùjọ</string>
+    <string name="g_o_email_label">Àdírẹ́ẹ̀sì E-mail:</string>
+    <string name="g_o_email_hint">Kọ Àdírẹ́ẹ̀sì e-mail alábójútó àwùjọ</string>
+    <string name="other_setting_header">Àwọn ìsètò míràn</string>
+    <string name="lang_label">Yan Èdè</string>
+    <string name="backup_restore_label">Àfẹ̀yìntì àti Ìdápadà</string>
+    <string name="about_label">Àlàyé nípa Apilikásàn</string>
+    <string name="sel_lang_label">Jọ̀wọ́ yan èdè tí o fẹ́</string>
+    <string name="include_salutation">Fi ìkíni kún ìròyìn</string>
+    <string name="e_mail">E-mail</string>
+    <string name="send_using">Yan apilikásàn fún e-mail</string>
+
+    <string-array name="available_languages_text">
+        <item>Gẹ̀ẹ́sì</item>
+        <item>Faransé</item>
+        <item>Sípáníìsì</item>
+        <item>Yorùbá</item>
+    </string-array>
+
+    <string-array name="available_languages_value">
+        <item>en</item>
+        <item>fr</item>
+        <item>es</item>
+        <item>yo</item>
+    </string-array>
+    <string name="backup">Àfẹ̀yìntì</string>
+    <string name="restore">Ìdápadà</string>
+    <string name="last_backup">Àfẹ̀yìntì ìkẹyìn</string>
+    <string name="backup_now">sàfẹ̀yìntì</string>
+    <string name="restore_label">sèdápadà Àfẹ̀yìntì</string>
+    <string name="backup_to_online">sàfẹ̀yìntì sóríi ẹ̀rọ ayélujára</string>
+    <string name="backup_to_local">sàfẹ̀yìntì sóríi ẹ̀rọ alágbèéká yìí</string>
+    <string name="backup_settings_too">sàfẹ̀yìntì àwọn ìsètò tí mo ti se</string>
+    <string name="backup_account_label">Àdírẹ́ẹ̀sì ẹ̀rọ ayélujára</string>
+    <string name="backup_account_info">Kò sí àdírẹ́ẹ̀sì ẹ̀rọ ayélujára kankan ní yíyàn </string>
+    <string name="local_drive">Ẹ̀rọ Alágbèéká :</string>
+    <string name="google_drive">Ẹ̀rọ ayélujára :</string>
+    <string name="restore_details">sèdápadà àfẹ̀yìnti ìròyìn, ìpadàbẹ̀wò àti ìkẹ́kọ̀ọ́ bíbélì rẹ láti máse pàdánù wọn.
+		 Jọ̀wọ́ ríi dájú pé o ní àǹfàní ẹ̀rọ ẹ̀rọ ayélujára àti pé o ti yan àdírẹ́ẹ̀sì ẹ̀rọ ayélujára tí o fẹ́ látara àwọn
+		èyí tó wà lókè yẹn, èyí ló máa jẹ́ káa lè sàwárí àfẹ̀yìnti tí o ti ní tẹ́lẹ̀ lóríi ẹ̀ró ayélujára.</string>
+    <string name="no_backup">Kò sí àfẹ̀yìnti</string>
+    <string name="restore_now">sèdápadà</string>
+    <string name="empty_report_text">Report not sent please add at least an hour to report before sending</string>
+
+    <string name="starting_l_backup">Starting Local Backup…</string>
+    <string name="l_backup_successful">Local Backup Successful!</string>
+    <string name="l_backup_failed">Local Backup failed!</string>
+    <string name="starting_g_backup">Starting Google Drive Backup…</string>
+    <string name="g_backup_successful">Google Drive Backup Successful!</string>
+    <string name="g_backup_failed">Google Drive Backup failed!</string>
+    <string name="no_backup_method_found">No backup method found, please select a backup method and try again</string>
+
+    <string name="starting_restore">Starting Restore…</string>
+    <string name="restore_successful">Restore Successful!</string>
+    <string name="restore_failed">Restore failed!, could not find backup</string>
+
+    <string name="application_info">
+        <![CDATA[
+        <!DOCTYPE HTML>
+        <html>
+            <head>
+
+            </head>
+            <body style="text-align:justify; line-height:1.5">
+                <p>Ìròyìn Isẹ́ Ìsìn jẹ́ apilikásàn láti ilé isẹ́ẹ Florom Solutions Inc. A se apilikásàn yíí láti ran àwọn ajẹ́rìí Jèhófà lọ́wọ́ láti bójútó ìròyìn isẹ́ ìsìn wọn. Èyí nínínú, iye wákàtí tí akéde lò lénu isẹ́ ìsìn, iye fídíò tí ó fi hàn, iye ìtẹ̀jáde tí ó fi síta, iye ìpadàbẹ̀wò tí ó ní àti iye ìkẹ́kọ̀ọ́ bíbélì ọ̀tọ̀ọ̀tọ̀ tí ó darí. </p> <p> Apilikásàn yíí tún lè mójútó ẹ̀kúnrẹ́rẹ́ àlàyé
+		nípa àwọn ìpadàbẹ̀wò àti ìkẹ́kọ̀ọ́ bíbélì tí akéde kán ní, ó tún lè pe ìpadàbẹ̀wò ní tààràtà tàbí kí ó mẹ́sáàgì rẹ̀ níwọ̀n ìgbà tí nọ́ḿbà ẹ̀rọ alágbèékáa rẹ̀ bá wà ní àkọsílẹ̀. Ó ní ìsọ̀rí fún àkòjọpọ̀ osoosù, níbi tí akéde ti lè fi ìròyìn osoosù rẹ̀ ráńsẹ́ sí alábòójútó àwùjọ tàbí akọ̀wé ìjọ, ní èyí tí ó dá lóríi ìsètò tí akéde ti se. </p> <p>Apilikásàn yíí tún ní ìsọ̀rí fún àfẹ̀yìntì àti ìdápadà láti ríi dájú pé akéde kò pàdánù àwọn ohun tí ó ti fi pamọ́. A ti tú apilikásàn yí sí èdè méta ọ̀tọ̀ọ̀tọ̀ tí í se Faransé, Sípáníìsì àti Yorùbá, a sì tún máa fi àwọn èdè mírán kúun lọ́jọ́ọ iwájú.
+                </p> <p> Gbogbo ǹkan wọ̀nyí àti àwọn ǹkan míràn ni ìròyìn isẹ́ ìsìn lè se. A lérò pé wàá ní ìrírí tí ó suwọ̀n bí o tiń lo apilikásàn yìí tí a se láti ilé isẹ́ẹ Florom Solutions. Fún ìtẹ̀síwájú, títú sí èdè míràn, ìbéèrè tàbí èrò rẹ, jọ̀wọ́ kàn sí wa lóríi àdírẹ́ẹ̀sì e-maili wa <a href="mailto:floromsolutions@gmail.com">floromsolutions@gmail.com</a> tàbí lóríi <a href="mailto:samueloyegbemi@gmail.com">samueloyegbemi@gmail.com</a>. À ń fi ojú sọ́nàn fún mímú kí apilikásàn yìí suwọ̀n síi.</p>
+            </body>
+        </html>
+        ]]>
+    </string>
+</resources>

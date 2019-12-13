@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/nav_header_text_size"
+        android:background="@color/florom_color"
+        android:text="@string/visit_detail_header"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:padding="@dimen/m_padding"/>
+
+    <EditText
+        android:id="@+id/ent_l_disc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_title"
+        android:layout_margin="@dimen/m_padding"
+        android:hint="@string/ent_l_disc"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/ent_n_disc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ent_l_disc"
+        android:layout_margin="@dimen/m_padding"
+        android:hint="@string/ent_n_disc"
+        android:inputType="text"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        android:layout_above="@id/save_cancle_bar"
+        android:layout_marginTop="@dimen/content_padding"/>
+    <LinearLayout
+        android:id="@+id/save_cancle_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ent_n_disc"
+        style="?android:attr/buttonBarStyle">
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@color/white_smoke"
+            android:text="@android:string/cancel"
+            android:textColor="@color/blackish_grey"
+            android:textAllCaps="false"
+            android:textSize="@dimen/menu_text_size"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+        <Button
+            android:id="@+id/save_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@color/white_smoke"
+            android:text="@string/save_l"
+            android:textColor="@color/blackish_grey"
+            android:textAllCaps="false"
+            android:textSize="@dimen/menu_text_size"
+            style="?android:attr/buttonBarButtonStyle"/>
+    </LinearLayout>
+</RelativeLayout>

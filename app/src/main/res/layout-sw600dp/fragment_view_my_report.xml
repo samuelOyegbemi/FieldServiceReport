@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/m_padding"
+    android:background="@color/white">
+    <TextView
+        android:id="@+id/yearly_report_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="@string/yearly_r_header"
+        android:textSize="@dimen/nav_header_text_size"
+        android:layout_marginBottom="@dimen/m_padding"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray"
+        android:layout_above="@id/report_list"/>
+    <ListView
+        android:id="@+id/report_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/yearly_report_header"
+        android:divider="@color/light_gray"
+        android:dividerHeight="@dimen/list_view_divider_height">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/empty_report_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/empty_report"
+        android:padding="@dimen/content_padding"
+        android:background="@color/white"
+        android:textSize="@dimen/app_text_size"/>
+</RelativeLayout>
